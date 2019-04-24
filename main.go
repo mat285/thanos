@@ -53,6 +53,6 @@ func snap(path string, info os.FileInfo) error {
 }
 
 func printUsage() {
-	fmt.Println("Usage:\n\nthanos snap [dir]")
+	fmt.Println("Usage:\n\tthanos snap [dir]")
 	os.Exit(0)
 }
